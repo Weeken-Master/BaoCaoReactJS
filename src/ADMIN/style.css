@@ -1,0 +1,25 @@
+.main-content .navbar-top {
+    background: linear-gradient( 
+        87deg
+         , #11cdef 0, #1171ef 100%) !important;
+         position: none;
+}
+.main-cpanel-admin{
+    padding-top: 100px;
+}
+.main-cpanel-admin .table-responsive {
+    border: 1px solid ;
+
+    border-color: #fff #dee2e6 #dee2e6 #dee2e6;
+}
+
+.main-cpanel-admin .badge-primary{
+    text-align: center;
+    width: 100%;
+}
+.main-cpanel-admin .content{
+    margin: 20px 25px 20px 25px;
+}
+.main-cpanel-admin .ni-fat-remove{
+    font-size: 25px;
+}

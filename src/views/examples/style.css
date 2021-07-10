@@ -1,0 +1,53 @@
+.add_post{
+    width: 100%;
+    margin-top: 10px;
+}
+.modal-title {
+    width: 100%;
+}
+.modal-header{
+    padding-bottom: 0px;
+}
+.modal-header .alert {
+    margin-bottom: 0px;
+}
+#header-detail{
+    margin-right: 10px;
+    margin-left: -10px;
+}
+#img-post{
+    max-width: 500px;
+}
+.th-name-post{
+    width: 100%;
+}
+.main-detail-posts{
+    padding-top: 10px;
+}
+.main-detail-posts .tab-content{
+    padding-top: 5px;
+}
+.img-main-detail{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 50% ;
+    margin-right: 20px ;
+}
+.send-comment{
+    position: absolute;
+    width: 50%;
+    bottom: -75px;
+}
+.send-comment .ni{
+    color: black;
+    font-size: 40px;
+}
+.th-name-post:hover{
+    background-color: rgb(227, 236, 248);
+}
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 90%;
+    }
+}

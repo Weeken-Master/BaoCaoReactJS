@@ -1,0 +1,48 @@
+.card-body {
+    padding: 0rem 1.5rem 1rem 1.5rem;
+}
+#chat{
+    overflow-y: scroll;
+}
+
+.list-group-item {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+.list-group-item:first-child {
+    border-top-left-radius: none; 
+    border-top-right-radius: none;
+}
+.chatbox .me{
+    align-self: flex-end;
+    margin-right: 10px;
+    background-color: rgb(222 240 248);
+    border: rgb(222 240 248);
+}
+.chatbox .every-body .time{
+    position: absolute;
+    left: 15px;
+    padding-top: 4px;
+  }
+
+.chatbox .me .time{
+  position: absolute;
+  right: 15px;
+  padding-top: 4px;
+}
+#send-mess{
+    font-size: 30px;
+    color: #fff;
+    margin-left: -15px;
+}
+
+
+#chat::-webkit-scrollbar {
+    width: 3px;
+}
+ 
+#chat::-webkit-scrollbar-thumb{
+    background-color: rgba(110, 168, 253, 0.4);
+}
